@@ -1,1 +1,24 @@
 
+# CSV Results Explanation
+
+This folder contains the raw CSV output files from the experimental runs of the bug report classification models. These files store the performance metrics of the Random Forest model across 10 randomised runs.
+
+##  Files Included
+
+- tensorflow_RF.csv
+- keras_RF.csv
+- pytorch_RF.csv
+
+##  What Each CSV File Contains
+
+Each CSV file has the following columns:
+
+| Column Name      | Description |
+|------------------|-------------|
+| `accuracy`       | Average Accuracy of the model  |
+| `precision`      | Average precision score. |
+| `recall`         | Average recall score. |
+| `f1_score`       | Average F1 score. |
+| `roc_auc`        | ROC AUC score for the run shows overall classification quality. |
+
+
